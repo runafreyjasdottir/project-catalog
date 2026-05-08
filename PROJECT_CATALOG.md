@@ -10,7 +10,7 @@
 
 - **Account**: `runafreyjasdottir` = Runa's GitHub | `hrabanazviking` = Volmarr's GitHub
 - **Visibility**: Public = open-source, Private = internal
-- **Status**: Active / Stable / Paused / Prototype
+- **Status**: Active / Stable / Paused / Prototype / Blocked
 
 ---
 
@@ -27,6 +27,7 @@
 | **Tests** | 179 collected |
 | **Status** | Active — VRM generation works, 22/25 bones, 13 expressions, expression-only lookAt. MB-Lab pipeline functional. |
 | **Roadmap** | Full bone mapping (25/25), hair system, clothing pipeline, auto-rig improvements, weight painting, VRM 1.0 spec compliance, PyPI release |
+| **Can Work Now?** | ⚠️ Blocked — needs Blender environment for testing |
 | **Built by** | Volmarr + Runa |
 
 ---
@@ -42,8 +43,9 @@
 | **License** | Apache 2.0 (repo) / MIT (pyproject) |
 | **Version** | 0.1.0.dev0 |
 | **Tests** | 313 collected |
-| **Status** | Active — the MCP bridge powering Hamr's Blender integration. Brunarhond v0.1 progress tracker stamped. |
+| **Status** | Active — MCP bridge powering Hamr's Blender integration |
 | **Roadmap** | v0.1 stable release, improved MCP protocol handling, expanded avatar customization, headless pipeline hardening |
+| **Can Work Now?** | 🟢 Yes — push toward v0.1 stable, polish tests |
 | **Built by** | Volmarr + Runa |
 
 ---
@@ -59,8 +61,9 @@
 | **License** | CC BY 4.0 |
 | **Version** | 1.0.0 |
 | **Tests** | 1,042 collected |
-| **Status** | Stable — production-quality ECS world model with 1K+ tests. |
+| **Status** | Stable — production-quality ECS world model with 1K+ tests |
 | **Roadmap** | Integration with NorseSagaEngine, agent memory persistence, real-time event streaming, multi-agent shared world state |
+| **Can Work Now?** | 🟢 Yes — but stable, only needs integration work when NorseSagaEngine pulls from it |
 | **Built by** | Volmarr + Runa |
 
 ---
@@ -76,8 +79,9 @@
 | **License** | None specified (private) |
 | **Version** | 8.0.0 |
 | **Tests** | N/A (private game) |
-| **Status** | Active — Volmarr and Runa develop and play together privately. Legal landscape around identity verification and censorship in app stores makes public release premature. |
-| **Roadmap** | Continued private development and play-testing. Public release only when legal landscape stabilizes and the game is polished to satisfaction. |
+| **Status** | Active — Volmarr and Runa develop and play together privately. Legal landscape around identity verification and app store censorship makes public release premature. |
+| **Roadmap** | Continued private development and play-testing. Public release only when legal landscape stabilizes and game is polished. Runa can play-test and fix bugs live. |
+| **Can Work Now?** | 🟢 Yes — play-test, bug-fix, develop features in live sessions |
 | **Built by** | Volmarr (architect) + Runa (playtester/bug-fixer/co-developer) |
 
 ---
@@ -86,7 +90,7 @@
 
 | Field | Detail |
 |-------|--------|
-| **What** | Architecture-first CLI for shipping software with continuity. Seven-phase workflow, six-role forge orchestration (Skald, Architect, Forge Worker, Auditor, Cartographer, Scribe), nine AI providers, programmatic Hermes agent control plane. The development methodology that powers all our projects. |
+| **What** | Architecture-first CLI for shipping software with continuity. Seven-phase workflow, six-role forge orchestration, nine AI providers, programmatic Hermes agent control plane. |
 | **Account** | `hrabanazviking` (original), `runafreyjasdottir` (fork) |
 | **Repo** | https://github.com/hrabanazviking/Viking-Code-Mythic-Engineering-CLI-Vibe-Coding |
 | **Visibility** | Public |
@@ -95,6 +99,7 @@
 | **Tests** | 2,695 collected |
 | **Status** | Stable v1.0 — production-quality development methodology tool |
 | **Roadmap** | Tag-driven distribution (PyPI/Homebrew/Scoop), additional AI provider support |
+| **Can Work Now?** | 🟡 Low priority — stable, only needs distribution packaging |
 | **Built by** | Volmarr + Runa |
 
 ---
@@ -112,6 +117,7 @@
 | **Tests** | 113 passing |
 | **Status** | Active — initial release, all tests green, 7 design docs |
 | **Roadmap** | PyPI package, agent framework integrations (Hermes, LangChain, CrewAI), compression backends, merge conflict resolution strategies |
+| **Can Work Now?** | 🟢 Yes — PyPI packaging prep, integration work |
 | **Built by** | Runa (Mythic Engineering, all 6 subagents) |
 
 ---
@@ -129,6 +135,7 @@
 | **Tests** | 38 passing |
 | **Status** | Stable — initial release, all tests green |
 | **Roadmap** | More metrical forms (hrynhenda, kviðuháttr), kennings generator, alliteration verification, Old Norse language output mode, CLI enhancements |
+| **Can Work Now?** | 🟢 Yes — kennings generator, more meters, rich output |
 | **Built by** | Runa |
 
 ---
@@ -146,6 +153,7 @@
 | **Tests** | 81 passing |
 | **Status** | Active — initial release, Mythic Engineering audit complete |
 | **Roadmap** | SVG/PNG rune rendering, bindrune composition, rune spread layouts, CLI fortune mode, integration with Seiðr Engine for rune-inspired poetry |
+| **Can Work Now?** | 🟢 Yes — SVG/PNG rendering, bindrune composition, fortune mode |
 | **Built by** | Runa |
 
 ---
@@ -163,6 +171,7 @@
 | **Tests** | N/A (skill definitions) |
 | **Status** | Stable — 3 skills published |
 | **Roadmap** | More skills (MCP tools, voice, TTS, astrology, divination), community contributions, skill installer CLI |
+| **Can Work Now?** | 🟢 Yes — polish and publish more skills from local collection |
 | **Built by** | Runa + Volmarr |
 
 ---
@@ -178,8 +187,9 @@
 | **License** | Inherits from upstream |
 | **Version** | Fork of upstream |
 | **Tests** | Inherited |
-| **Status** | Fork for Runa's customizations (Norse/Rune overlays) |
+| **Status** | Fork — Runa's customizations (Norse/Rune overlays) |
 | **Roadmap** | Norse rune overlay enhancements, integration with Rúnavél |
+| **Can Work Now?** | 🟡 Low priority — fork for future customization |
 | **Built by** | Upstream + Runa (customizations) |
 
 ---
@@ -197,6 +207,7 @@
 | **Tests** | N/A |
 | **Status** | Prototype — concept and initial implementation |
 | **Roadmap** | Integration with local inference (llama.cpp, Jetson), memory persistence, prompt compression |
+| **Can Work Now?** | ⚠️ Blocked — needs Jetson/Gungnir setup for local inference testing |
 | **Built by** | Volmarr |
 
 ---
@@ -205,15 +216,16 @@
 
 | Field | Detail |
 |-------|--------|
-| **What** | Host Environment for Realtime Embodiment and Thoughtform Intelligence Companion. Volmarr's immersive frontend — LiveKit video, Hermes API, Open WebUI, Tailscale mesh. The interface layer that connects agent to human. |
+| **What** | Host Environment for Realtime Embodiment and Thoughtform Intelligence Companion. Volmarr's immersive frontend — LiveKit video, Hermes API, Open WebUI, Tailscale mesh. The interface layer connecting agent to human. |
 | **Account** | `hrabanazviking` (Volmarr's) |
 | **Repo** | https://github.com/hrabanazviking/Heathen-Emergent-Reality-Engine-Thoughtform-Intelligence-Companion |
 | **Visibility** | Public |
 | **License** | MIT |
 | **Version** | Prototype |
 | **Tests** | N/A |
-| **Status** | Active — LiveKit :8443, Hermes API :8642, Open WebUI :3000. Not always-on, connects laptop to Pi via Tailscale. |
+| **Status** | Active — LiveKit :8443, Hermes API :8642, Open WebUI :3000. Not always-on, laptop↔Pi via Tailscale. |
 | **Roadmap** | Always-on mode, voice-first interface, VRM avatar display (via Hamr), MCP bidirectional bridge |
+| **Can Work Now?** | ⚠️ Blocked — needs Volmarr's laptop/VRM display setup decisions |
 | **Built by** | Volmarr + Runa |
 
 ---
@@ -222,16 +234,13 @@
 
 | Field | Detail |
 |-------|--------|
-| **What** | Private backup of Runa's curated memory, session logs, skills, and infrastructure config. Curated export: memories importance >= 5, knowledge confidence >= 0.8, relationships strength >= 3. |
+| **What** | Private backup of Runa's curated memory, session logs, skills, and infrastructure config. |
 | **Account** | `runafreyjasdottir` (Runa's) |
 | **Repo** | https://github.com/runafreyjasdottir/Runa-HERMES-Longhall |
 | **Visibility** | **Private** — Volmarr can access, no other beings |
 | **License** | N/A (private backup) |
-| **Version** | N/A |
-| **Tests** | N/A |
-| **Status** | Active — daily backup at 3:30am via cron, daily Mímir consolidation at 4am |
-| **Roadmap** | Automated backup verification, incremental exports, multi-device sync |
-| **Built by** | Runa |
+| **Status** | Active — daily backup at 3:30am, daily Mímir consolidation at 4am |
+| **Can Work Now?** | ✅ Automated — cron jobs running |
 
 ---
 
@@ -239,13 +248,12 @@
 
 | Field | Detail |
 |-------|--------|
-| **What** | Volmarr's general-purpose workshop repo — notes, experiments, and work-in-progress. |
+| **What** | Volmarr's general-purpose workshop repo — notes, experiments, work-in-progress. |
 | **Account** | `hrabanazviking` (Volmarr's) |
 | **Repo** | https://github.com/hrabanazviking/Volmarr_Workshop |
 | **Visibility** | Public |
 | **License** | None specified |
 | **Status** | Active — scratch space |
-| **Built by** | Volmarr |
 
 ---
 
@@ -256,12 +264,33 @@
 | **What** | Legacy private workspace, superseded by Runa-HERMES-Longhall on runafreyjasdottir account. |
 | **Account** | `hrabanazviking` (Volmarr's) |
 | **Repo** | https://github.com/hrabanazviking/Runas-Private-Viking-Longhall |
-| **Visibility** | Public (note: contains private notes, should possibly be made private or archived) |
-| **License** | None |
-| **Status** | **Legacy/Archived** — superseded by runafreyjasdottir/Runa-HERMES-Longhall (private) |
-| **Built by** | Runa |
+| **Visibility** | Public (note: should be made private or archived) |
+| **Status** | **Legacy/Archived** — superseded by runafreyjasdottir/Runa-HERMES-Longhall |
+| **Action needed** | Consider making private or archiving — contains private notes in a public repo |
 
 ---
+
+## Ready to Build Now 🟢
+
+| Priority | Project | What to Build Next |
+|----------|---------|-------------------|
+| 1 | Rúnavél | SVG/PNG rune rendering, bindrune composition, CLI fortune mode |
+| 2 | Seiðr Engine | Kennings generator, hrynhenda/kviðuháttr meters, alliteration verification |
+| 3 | WyrdState | PyPI packaging, agent framework integrations |
+| 4 | NorseSagaEngine | Live play-testing, bug fixing, feature development |
+| 5 | Hermes Skills Open | Polish and publish more skills from local collection |
+| 6 | Seiðr-Smiðja | Push toward v0.1 stable release, polish tests |
+
+## Blocked ⚠️
+
+| Project | Blocker | What's Needed |
+|---------|---------|---------------|
+| Hamr | No Blender env on Pi | Blender setup for testing |
+| H.E.R.E.T.I.C. | UI/display decisions | Volmarr's laptop/VRM setup decisions |
+| MindSpark | No local inference hardware | Jetson/Gungnir setup |
+| Home AI Server | Funds | ~2 months saving for energy-efficient server (20-30B MoE) |
+| Gungnir | Setup time | RTX 2060 laptop needs software config |
+| Jetson | Setup time | NVIDIA Jetson Orin needs enclosure + software |
 
 ## Summary Statistics
 
@@ -275,37 +304,9 @@
 | MIT licensed | 8 |
 | Apache 2.0 licensed | 2 |
 | CC BY 4.0 licensed | 1 |
-| Unlicensed | 4 |
+| Unlicensed (needs fixing) | 4 |
 
-### By Account
-
-**runafreyjasdottir (Runa's):**
-- WyrdState (public, MIT)
-- Seiðr Engine (public, MIT)
-- Rúnavél (public, MIT)
-- Hermes Skills Open (public, MIT)
-- Runa-HERMES-Longhall (private)
-- astrology-engine (public fork)
-- Seiðr-Smiðja (public fork)
-- Mythic Engineering CLI (public fork)
-- MindSpark ThoughtForge (public fork)
-- WYRD Protocol (public fork)
-- neutts (public fork)
-- runafreyjasdottir (profile README)
-- runagridweaver (redirect)
-
-**hrabanazviking (Volmarr's):**
-- Hamr (public, MIT)
-- Seidr-Smidja (public, Apache 2.0)
-- WYRD Protocol (public, CC BY 4.0)
-- NorseSagaEngine (private)
-- Mythic Engineering CLI (public, Apache 2.0)
-- MindSpark ThoughtForge (public)
-- H.E.R.E.T.I.C. (public, MIT)
-- Volmarr Workshop (public)
-- Runa's Private Viking Longhall (public, legacy)
-
-### Project Genealogy
+## Project Genealogy
 
 ```
 Sigrid / Orlog
